@@ -16,7 +16,7 @@ def evaluate(gt, auto):
 
 if __name__ == '__main__':
     parser = argparse.ArgumentParser(
-        description="Do work using Fiji's huge plugin library.")
+        description="Compute Rand Error between two segmentations.")
     parser.add_argument('gt', help='The image containing the ground truth'
                                    'segmentation.')
     parser.add_argument('auto', help='The image containing the candidate'
